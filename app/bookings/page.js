@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Form from "./Form";
 
 export default function page() {
@@ -7,7 +6,7 @@ export default function page() {
     <div className="relative">
       <div className="absolute bottom-0 w-2/3 h-3/5 bg-gray-100 -z-10"></div>
       <div className="cont grid grid-cols-1 md:grid-cols-2 gap-10">
-        <div className="">
+        <div className="hidden md:flex">
           <Image
             src="/pricing_ill.svg"
             className="object-contain "
