@@ -39,7 +39,7 @@ export default function Hero() {
             quae. explicabo.
           </p>
           <div className="flex items-center">
-            <Link href="/" className="btn">
+            <Link href="/bookings" className="btn">
               Book a Session
             </Link>
           </div>

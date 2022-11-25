@@ -16,10 +16,17 @@ export default function Navbar() {
               href="/"
               aria-label="Company"
               title="Company"
-              className="inline-flex items-center mr-8 text-white"
+              className="inline-flex items-center mr-24 text-white"
             >
-              Supervision Dublin
+              <Image
+                src="/logo-dark.png"
+                alt="logo"
+                width={150}
+                height={75}
+                className="w-36 h-auto object-contain"
+              />
             </Link>
+            
             <ul className="flex items-center hidden space-x-8 lg:flex">
               <li className="relative">
                 <Link
@@ -81,7 +88,13 @@ export default function Navbar() {
                         title="Company"
                         className="inline-flex items-center mr-8 text-dark font-bold tracking-widest "
                       >
-                        Supervision Dublin
+                        <Image
+                          src="/logo-light.png"
+                          alt="logo"
+                          width={150}
+                          height={75}
+                          className="w-36 h-auto object-contain"
+                        />
                       </Link>
                     </div>
                     <div>

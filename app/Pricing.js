@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Pricing() {
@@ -15,48 +16,48 @@ export default function Pricing() {
         </div>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-10">
           <div>
-            <div class="p-8 bg-dark rounded">
-              <div class="mb-4 text-center">
-                <p class="text-xl font-medium tracking-wide text-white">
+            <div className="p-8 bg-dark rounded">
+              <div className="mb-4 text-center">
+                <p className="text-xl font-medium tracking-wide text-white">
                   Standard Session
                 </p>
-                <div class="flex items-center justify-center">
-                  <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl">
+                <div className="flex items-center justify-center">
+                  <p className="mr-2 text-5xl font-semibold text-white lg:text-6xl">
                     €80
                   </p>
-                  <p class="text-lg text-gray-300">/ session</p>
+                  <p className="text-lg text-gray-300">/ session</p>
                 </div>
               </div>
 
-              <button type="submit" class="btn w-full">
-                Book a Session
-              </button>
+              <Link href="/bookings">
+                <button className="btn w-full">Book a Session</button>
+              </Link>
             </div>
-            <div class="w-11/12 h-2 mx-auto bg-dark rounded-b opacity-75" />
-            <div class="w-10/12 h-2 mx-auto bg-dark rounded-b opacity-50" />
-            <div class="w-9/12 h-2 mx-auto bg-dark rounded-b opacity-25" />
+            <div className="w-11/12 h-2 mx-auto bg-dark rounded-b opacity-75" />
+            <div className="w-10/12 h-2 mx-auto bg-dark rounded-b opacity-50" />
+            <div className="w-9/12 h-2 mx-auto bg-dark rounded-b opacity-25" />
           </div>
           <div>
-            <div class="p-8 bg-dark rounded">
-              <div class="mb-4 text-center">
-                <p class="text-xl font-medium tracking-wide text-white">
+            <div className="p-8 bg-dark rounded">
+              <div className="mb-4 text-center">
+                <p className="text-xl font-medium tracking-wide text-white">
                   Student Rate
                 </p>
-                <div class="flex items-center justify-center">
-                  <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl">
+                <div className="flex items-center justify-center">
+                  <p className="mr-2 text-5xl font-semibold text-white lg:text-6xl">
                     €65
                   </p>
-                  <p class="text-lg text-gray-300">/ session</p>
+                  <p className="text-lg text-gray-300">/ session</p>
                 </div>
               </div>
 
-              <button type="submit" class="btn w-full">
-                Book a Session
-              </button>
+              <Link href="/bookings">
+                <button className="btn w-full">Book a Session</button>
+              </Link>
             </div>
-            <div class="w-11/12 h-2 mx-auto bg-dark rounded-b opacity-75" />
-            <div class="w-10/12 h-2 mx-auto bg-dark rounded-b opacity-50" />
-            <div class="w-9/12 h-2 mx-auto bg-dark rounded-b opacity-25" />
+            <div className="w-11/12 h-2 mx-auto bg-dark rounded-b opacity-75" />
+            <div className="w-10/12 h-2 mx-auto bg-dark rounded-b opacity-50" />
+            <div className="w-9/12 h-2 mx-auto bg-dark rounded-b opacity-25" />
           </div>
         </div>
       </div>

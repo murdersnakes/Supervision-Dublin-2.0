@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base{
   .cont{
     @apply px-5 py-24 mx-auto max-w-7xl
@@ -24,10 +25,14 @@
   }
 
   .btn{
-    @apply px-4 py-2 font-bold rounded bg-accent text-dark text-xl hover:shadow hover:bg-dark hover:text-white transition-all
+    @apply px-4 py-2 font-bold rounded bg-accent text-dark text-xl shadow hover:shadow-lg hover:bg-dark hover:text-white transition-all
+  }
+
+  .btn-2{
+    @apply px-4 py-2 font-bold rounded bg-transparent ring-2 ring-inset ring-dark text-dark text-xl shadow hover:shadow-lg hover:bg-dark hover:text-white transition-all
   }
 
   .navlink{
-    @apply text-lg font-bold hover:underline tracking-wide text-white
+    @apply text-lg hover:underline underline-offset-4 tracking-widest text-white
   }
 }

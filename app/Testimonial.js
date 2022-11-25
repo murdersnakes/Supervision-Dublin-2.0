@@ -7,11 +7,11 @@ export default function Testimonial() {
       <div className="absolute bottom-0 right-0 w-2/3 h-full bg-gray-100 -z-10"></div>
       <div className="cont grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         <Image
-          src="/woman_3.webp"
-          alt="woman"
+          src="/tree.svg"
+          alt="tree"
           width={600}
           height={400}
-          className="object-cover box"
+          className="object-contain"
         />
         <div className="prose-lg">
           <h3 className="font-bold">Kathryn is the best!!</h3>

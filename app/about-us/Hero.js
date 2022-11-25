@@ -2,6 +2,7 @@ import React from "react";
 import { TbAward } from "react-icons/tb";
 import { GrValidate } from "react-icons/gr";
 import { RiMoneyEuroCircleFill } from "react-icons/ri";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -27,32 +28,32 @@ export default function Hero() {
             </h2>
           </div>
           <div className="flex items-center sm:justify-center">
-            <button type="submit" className="btn">
+            <Link href="/bookings" className="btn">
               Book a Session
-            </button>
+            </Link>
           </div>
         </div>
       </div>
       <div className="relative px-4 sm:px-0">
         <div className="absolute inset-0 bg-gray-100 h-1/2" />
-        <div className="relative grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
-          <div className="inline-block p-8 text-center">
+        <div className="relative grid grid-cols-3 gap-5 mx-auto max-w-xl ">
+          <div className="inline-block p-8 text-center box bg-white">
             <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-light text-3xl">
               <TbAward />
             </div>
-            <p className="font-bold tracking-wide text-gray-800">ACCREDITED</p>
+            <p className="h2 text-md">Accredited</p>
           </div>
-          <div className="inline-block p-8 text-center">
+          <div className="inline-block p-8 text-center box bg-white">
             <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-light text-3xl">
               <GrValidate />
             </div>
-            <p className="font-bold tracking-wide text-gray-800">ACCESSIBLE</p>
+            <p className="h2 text-md">Accessible</p>
           </div>
-          <div className="inline-block p-8 text-center">
+          <div className="inline-block p-8 text-center box bg-white">
             <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-light text-3xl">
               <RiMoneyEuroCircleFill />
             </div>
-            <p className="font-bold tracking-wide text-gray-800">AFFORDABLE</p>
+            <p className="h2 text-md">Affordable</p>
           </div>
         </div>
       </div>
