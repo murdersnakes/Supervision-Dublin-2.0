@@ -1,9 +1,9 @@
-import { Vollkorn } from "@next/font/google";
+import { Assistant } from "@next/font/google";
 import "../styles/globals.css";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
-const font = Vollkorn({
+const font = Assistant({
   variable: "--font-font",
   subsets: ["latin"],
 });

@@ -15,13 +15,13 @@ export default function Hero() {
                 About Us
               </p>
             </div>
-            <h2 className="h1 leading-normal">
+            <h2 className="h1 font-semibold leading-normal">
               Our founding{" "}
-              <span className="italic font-light underline underline-offset-2 ">
+              <span className="italic font-light">
                 ethos
               </span>{" "}
               is that supervision is the{" "}
-              <span className="italic font-light underline underline-offset-2">
+              <span className="italic font-light">
                 bedrock
               </span>{" "}
               of good professional practice.
